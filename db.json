@@ -1,5 +1,11 @@
 {
-  "erics": [
+  "erics":[
+    {
+      "name": "vogue eric",
+      "image": "images/vogue_eric.jpg",
+      "id": 1,
+      "details": "he's a fancy boy out on the town"
+    },
     {
       "name": "approving eric",
       "image": "images/approving_eric.jpg",

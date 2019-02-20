@@ -44,9 +44,21 @@ export default class MainContainer extends Component {
 
   submitHandler = ericObj => {
     let newEric =[ericObj, ...this.state.erics]
-    this.setState({
+
+    fetch('http://localhost:3001/erics', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        erics: newEric
+      })
+    }
+  )
+    .then(r => r.json())
+    .then(erics => this.setState({
       erics: newEric
-    })
+    }))
   }
 
   filterErics = () => {
