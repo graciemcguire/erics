@@ -31,3 +31,59 @@
     transform: rotate(360deg);
   }
 }
+
+.eric-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #F4F4F4;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.purse-container {
+  display: flex;
+  background-color: #FDB9C8;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 10%;
+  align-self: right;
+  justify-content: right;
+}
+.eric-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  width: 500px;
+  background-color: #F1F1F1;
+  height: 500px;
+  margin: 10px;
+}
+
+.search-container {
+  display: flex;
+  background-color: #FDB9C8;
+  align-items: center;
+  justify-content: center;
+  position: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
+.form {
+  padding: 5px;
+  margin: 3px;
+}
+
+.btn {
+  padding: 5px;
+  margin: 3px;
+}
+.eric-card-images {
+  width: 100%;
+  height: inherit;
+}

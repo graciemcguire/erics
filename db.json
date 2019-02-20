@@ -1,0 +1,70 @@
+{
+  "erics": [
+    {
+      "name": "approving eric",
+      "image": "images/approving_eric.jpg",
+      "id": 2,
+      "details": "he likes what you're doing and he thinks you should keep it up"
+    },
+    {
+      "name": "concerned eric",
+      "image": "images/concerned_eric.jpg",
+      "id": 3,
+      "details": "'what are you doing?' he wonders, furrowing his brow."
+    },
+    {
+      "name": "friendly eric",
+      "image": "images/friendly_eric.jpg",
+      "id": 4,
+      "details": "he exclaims 'hey friends!', and he truly means it."
+    },
+    {
+      "name": "generous eric",
+      "image": "images/generous_eric.jpg",
+      "id": 5,
+      "details": "he's just that kinda guy."
+    },
+    {
+      "name": "hungry eric",
+      "image": "images/hungry_eric.jpg",
+      "id": 6,
+      "details": "wow he needs to eat and he needs to eat now"
+    },
+    {
+      "name": "litty eric",
+      "image": "images/litty_eric.jpg",
+      "id": 7,
+      "details": "party boy out on the town"
+    },
+    {
+      "name": "not so proud eric",
+      "image": "images/not_so_proud_eric.jpg",
+      "id": 8,
+      "details": "he likes to think you know better"
+    },
+    {
+      "name": "original eric",
+      "image": "images/original_eric.jpg",
+      "id": 9,
+      "details": "the one and only"
+    },
+    {
+      "name": "proud eric",
+      "image": "images/proud_eric.jpg",
+      "id": 10,
+      "details": "he is very impressed like a brother, or dad."
+    },
+    {
+      "name": "spicy eric",
+      "image": "images/spicy_eric.jpg",
+      "id": 11,
+      "details": "spiced life is the life for him"
+    },
+    {
+      "name": "baby eric",
+      "image": "images/baby-eric.jpg",
+      "id": 12,
+      "details": "what's that there on his head?"
+    }
+  ]
+}
