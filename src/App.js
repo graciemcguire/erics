@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
 import MainContainer from './Containers/MainContainer'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import SpecialEric from './Components/SpecialEric.js'
 
-
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-      <MainContainer />
-      </div>
+      <Router>
+        <Switch>
+          <Route path='/special-eric' component={SpecialEric}/>
+          <Route path='/*' component={MainContainer} />
+        </Switch>
+      </Router>
     );
   }
 }
-
-export default App;

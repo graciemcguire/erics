@@ -11,9 +11,11 @@ export default class PurseContainer extends Component {
 
   render(){
     return(
-      <div className='purse-container'>
-      <div><h1>👛 my eric purse 👛</h1></div>
-      {this.mapDeErics()}
+      <div className= 'App'>
+        <div className='purse-container'>
+        <div><h1>👛 my eric purse 👛</h1></div>
+        {this.mapDeErics()}
+        </div>
       </div>
     )
   }
